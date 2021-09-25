@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=<device-width>, initial-scale=1.0"> -->
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div id="tododivv106"></div>
+    <div id="tododivv107"></div>
+    <div id="tododivv108"></div>
+    <div id="heads">
+        <h1 id="headsh1">
+            LOG IN 
+        </h1>
+        
+        <!-- <h1>
+            Organize it all with TODO LIST
+        </h1> -->
+        <center>
+            <form id="form" style="font-family: 'Brush Script MT', cursive; " onsubmit="validation(redirect);">
+                <div id="confirm">
+                    <div class="message"></div><br>
+                    <button class="yes">OK</button>
+                 </div>
+                <label style="font-size: 35px;">username : &nbsp;</label>
+                <input type="text" id="username" onkeyup="user();"><br><br>
+                <label style="font-size: 35px;">password : &nbsp;</label>
+                <input type="password" id="cupassword" onkeyup="pass();"><br><br>
+                <input style="font-size: 35px; font-family: 'Brush Script MT', cursive; width: 100px; height: 50px;" type="submit" value="login">
+            </form>
+        </center>
+        
+    </div>
+    
+    <script src="./mains.js" ></script>
+    
+</body>
+</html>

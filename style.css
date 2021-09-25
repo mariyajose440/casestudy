@@ -1,0 +1,113 @@
+body{
+    background-color: bisque;
+} 
+#heads
+{
+    /* border: 12px solid black; */
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    margin-top: 300px;
+    margin-left: 550px;
+}
+#tododivv106
+{
+    height: 300px;
+    width: 300px;
+    /* float: left; */
+    /* margin-top: 100px; */
+    margin-left: 450px;
+    margin-top: 10px;
+    border: 12px solid  black ;
+    position: fixed;
+}
+#tododivv107
+{
+    height: 300px;
+    width: 300px;
+    /* float: left; */
+    border: 12px solid black;
+    margin-left: 1000px;
+    margin-top: 400px;
+    position: fixed;
+}
+#tododivv108
+{
+    height: 300px;
+    width: 300px;
+    border: 12px solid black;
+    margin-left: 10px;
+    margin-top: 250px;
+    position: fixed;
+}
+#headsh1
+{
+    font-size: 70px;
+}
+#heads h1
+{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+#demo tr
+{
+    /* align-items: center; */
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+
+}
+#demo th
+{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+}
+#demo tr input
+{
+    height: 50px;
+    width: 30px;
+    
+
+}
+#confirm {
+    display: none;
+    background-color: rgb(235, 232, 232);
+    color: #000000;
+    border: 2px solid black;
+    position: fixed;
+    width: 550px;
+    height: 250px;
+    left: 30%;
+    top: 40%;
+    box-sizing: border-box;
+    text-align: center;
+ }
+ #confirm button {
+    background-color: rgb(223, 221, 221);
+    display: inline-block;
+    border-radius: 12px;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+ }
+ #confirm .message {
+    text-align: left;
+    padding: 100px;
+    padding-bottom: 30px;
+ }
+ header{
+     border-bottom: 1px solid black;
+     height: 100px;
+     font-size: 50px;
+     color: black;
+     font-family: 'Brush Script MT', cursive;
+     padding-top: 20px;
+ }
+ header a{
+     color: black;
+     text-decoration: none;
+     padding: 20px;
+ }
